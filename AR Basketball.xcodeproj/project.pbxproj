@@ -13,6 +13,7 @@
 		E485FD87224B29E400011A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485FD85224B29E400011A2E /* Main.storyboard */; };
 		E485FD89224B29E800011A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E485FD88224B29E800011A2E /* Assets.xcassets */; };
 		E485FD8C224B29E800011A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485FD8A224B29E800011A2E /* LaunchScreen.storyboard */; };
+		E485FD95224B2A7500011A2E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E485FD94224B2A7500011A2E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		E485FD88224B29E800011A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E485FD8B224B29E800011A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E485FD8D224B29E800011A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E485FD93224B2A4500011A2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E485FD94224B2A7500011A2E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,8 @@
 		E485FD73224B29E400011A2E = {
 			isa = PBXGroup;
 			children = (
+				E485FD94224B2A7500011A2E /* .gitignore */,
+				E485FD93224B2A4500011A2E /* README.md */,
 				E485FD7E224B29E400011A2E /* AR Basketball */,
 				E485FD7D224B29E400011A2E /* Products */,
 			);
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E485FD95224B2A7500011A2E /* .gitignore in Resources */,
 				E485FD82224B29E400011A2E /* art.scnassets in Resources */,
 				E485FD8C224B29E800011A2E /* LaunchScreen.storyboard in Resources */,
 				E485FD89224B29E800011A2E /* Assets.xcassets in Resources */,
