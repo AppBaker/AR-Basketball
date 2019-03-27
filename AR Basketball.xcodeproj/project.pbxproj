@@ -61,15 +61,39 @@
 		E485FD7E224B29E400011A2E /* AR Basketball */ = {
 			isa = PBXGroup;
 			children = (
-				E485FD7F224B29E400011A2E /* AppDelegate.swift */,
-				E485FD81224B29E400011A2E /* art.scnassets */,
-				E485FD83224B29E400011A2E /* ViewController.swift */,
-				E485FD85224B29E400011A2E /* Main.storyboard */,
-				E485FD88224B29E800011A2E /* Assets.xcassets */,
-				E485FD8A224B29E800011A2E /* LaunchScreen.storyboard */,
+				E485FD96224B350800011A2E /* Supporting Files */,
+				E485FD97224B352900011A2E /* Controllers */,
+				E485FD98224B353400011A2E /* View */,
 				E485FD8D224B29E800011A2E /* Info.plist */,
 			);
 			path = "AR Basketball";
+			sourceTree = "<group>";
+		};
+		E485FD96224B350800011A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E485FD7F224B29E400011A2E /* AppDelegate.swift */,
+				E485FD81224B29E400011A2E /* art.scnassets */,
+				E485FD88224B29E800011A2E /* Assets.xcassets */,
+				E485FD8A224B29E800011A2E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E485FD97224B352900011A2E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E485FD83224B29E400011A2E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E485FD98224B353400011A2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E485FD85224B29E400011A2E /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
