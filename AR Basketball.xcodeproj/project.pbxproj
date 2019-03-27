@@ -14,6 +14,9 @@
 		E485FD89224B29E800011A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E485FD88224B29E800011A2E /* Assets.xcassets */; };
 		E485FD8C224B29E800011A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485FD8A224B29E800011A2E /* LaunchScreen.storyboard */; };
 		E485FD95224B2A7500011A2E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E485FD94224B2A7500011A2E /* .gitignore */; };
+		E485FD9A224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD99224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift */; };
+		E485FD9C224B4B0400011A2E /* ViewController+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD9B224B4B0400011A2E /* ViewController+Methods.swift */; };
+		E485FD9E224B4F4100011A2E /* ViewController+@IBAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD9D224B4F4100011A2E /* ViewController+@IBAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		E485FD8D224B29E800011A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E485FD93224B2A4500011A2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E485FD94224B2A7500011A2E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E485FD99224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		E485FD9B224B4B0400011A2E /* ViewController+Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Methods.swift"; sourceTree = "<group>"; };
+		E485FD9D224B4F4100011A2E /* ViewController+@IBAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+@IBAction.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				E485FD83224B29E400011A2E /* ViewController.swift */,
+				E485FD99224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift */,
+				E485FD9B224B4B0400011A2E /* ViewController+Methods.swift */,
+				E485FD9D224B4F4100011A2E /* ViewController+@IBAction.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -169,6 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E485FD9A224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				E485FD9E224B4F4100011A2E /* ViewController+@IBAction.swift in Sources */,
+				E485FD9C224B4B0400011A2E /* ViewController+Methods.swift in Sources */,
 				E485FD84224B29E400011A2E /* ViewController.swift in Sources */,
 				E485FD80224B29E400011A2E /* AppDelegate.swift in Sources */,
 			);
