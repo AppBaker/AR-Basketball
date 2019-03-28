@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41F0D0D224CD02B005CF7CB /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F0D0C224CD02A005CF7CB /* Rectangle.png */; };
+		E41F0D0F224CD03B005CF7CB /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F0D0E224CD03B005CF7CB /* launchScreen.png */; };
 		E485FD80224B29E400011A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD7F224B29E400011A2E /* AppDelegate.swift */; };
 		E485FD82224B29E400011A2E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E485FD81224B29E400011A2E /* art.scnassets */; };
 		E485FD84224B29E400011A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD83224B29E400011A2E /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E41F0D0C224CD02A005CF7CB /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		E41F0D0E224CD03B005CF7CB /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
 		E485FD7C224B29E400011A2E /* AR Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Basketball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E485FD7F224B29E400011A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E485FD81224B29E400011A2E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				E485FD81224B29E400011A2E /* art.scnassets */,
 				E485FD88224B29E800011A2E /* Assets.xcassets */,
 				E485FD8A224B29E800011A2E /* LaunchScreen.storyboard */,
+				E41F0D0C224CD02A005CF7CB /* Rectangle.png */,
+				E41F0D0E224CD03B005CF7CB /* launchScreen.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 			files = (
 				E485FD82224B29E400011A2E /* art.scnassets in Resources */,
 				E485FD8C224B29E800011A2E /* LaunchScreen.storyboard in Resources */,
+				E41F0D0F224CD03B005CF7CB /* launchScreen.png in Resources */,
+				E41F0D0D224CD02B005CF7CB /* Rectangle.png in Resources */,
 				E485FD89224B29E800011A2E /* Assets.xcassets in Resources */,
 				E485FD87224B29E400011A2E /* Main.storyboard in Resources */,
 			);
