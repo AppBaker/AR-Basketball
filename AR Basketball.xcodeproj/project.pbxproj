@@ -18,6 +18,7 @@
 		E485FD9A224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD99224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift */; };
 		E485FD9C224B4B0400011A2E /* ViewController+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD9B224B4B0400011A2E /* ViewController+Methods.swift */; };
 		E485FD9E224B4F4100011A2E /* ViewController+@IBAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD9D224B4F4100011A2E /* ViewController+@IBAction.swift */; };
+		E4D6B539224DFE0C009205F9 /* ViewController+SCNSceneRendererDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6B538224DFE0C009205F9 /* ViewController+SCNSceneRendererDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E485FD99224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
 		E485FD9B224B4B0400011A2E /* ViewController+Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Methods.swift"; sourceTree = "<group>"; };
 		E485FD9D224B4F4100011A2E /* ViewController+@IBAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+@IBAction.swift"; sourceTree = "<group>"; };
+		E4D6B538224DFE0C009205F9 /* ViewController+SCNSceneRendererDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SCNSceneRendererDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				E485FD99224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift */,
 				E485FD9B224B4B0400011A2E /* ViewController+Methods.swift */,
 				E485FD9D224B4F4100011A2E /* ViewController+@IBAction.swift */,
+				E4D6B538224DFE0C009205F9 /* ViewController+SCNSceneRendererDelegate.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D6B539224DFE0C009205F9 /* ViewController+SCNSceneRendererDelegate.swift in Sources */,
 				E485FD9A224B49C100011A2E /* ViewController+ARSCNViewDelegate.swift in Sources */,
 				E485FD9E224B4F4100011A2E /* ViewController+@IBAction.swift in Sources */,
 				E485FD9C224B4B0400011A2E /* ViewController+Methods.swift in Sources */,

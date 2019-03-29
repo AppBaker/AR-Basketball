@@ -12,6 +12,9 @@ class ViewController: UIViewController{
 
     @IBOutlet var sceneView: ARSCNView!
     
+    var hoopAdded = false
+    var score = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
