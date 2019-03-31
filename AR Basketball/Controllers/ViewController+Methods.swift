@@ -75,7 +75,6 @@ extension  ViewController {
         hoopAdded = true
         
         sceneView.scene.rootNode.addChildNode(node)
-//        sceneView.scene.rootNode.addChildNode(createPlaneDetection(result: result))
         //Remove debugOptions and planeDetection
         sceneView.session.run(ARWorldTrackingConfiguration())
         sceneView.debugOptions.remove(.showFeaturePoints)
@@ -136,6 +135,7 @@ extension  ViewController {
         
         let scoreGeometry = SCNText(string: String(score), extrusionDepth: 0.1)
         scoreGeometry.font = UIFont(name: "Helvetica", size: 12)
+        scoreGeometry.flatness = 0
         let resultScoreNode = SCNNode(geometry: scoreGeometry)
         resultScoreNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
         resultScoreNode.scale = SCNVector3(0.03, 0.03, 0.03)
@@ -143,7 +143,7 @@ extension  ViewController {
         scoreNode = resultScoreNode
         return resultScoreNode
     }
-    
+    // Count score
     func ballInTheBasket() {
         score += 2
         if score < 10 {
