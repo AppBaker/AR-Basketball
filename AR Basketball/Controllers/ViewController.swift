@@ -14,13 +14,15 @@ class ViewController: UIViewController{
     
     var hoopAdded = false
     var score = 0
+    var scoreNode: SCNNode!
+    var collision = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Set the view's delegate
         sceneView.delegate = self
-        
+        sceneView.scene.physicsWorld.contactDelegate = self
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         sceneView.debugOptions = [.showFeaturePoints]

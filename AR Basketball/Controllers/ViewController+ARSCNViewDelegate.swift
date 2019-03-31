@@ -14,7 +14,6 @@ extension ViewController: ARSCNViewDelegate {
         guard let anchor = anchor as? ARPlaneAnchor else { return }
         
         node.addChildNode(createWall(anchor: anchor))
-        print("New plane added")
     }
     
 }

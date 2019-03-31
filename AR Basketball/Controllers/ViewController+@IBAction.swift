@@ -6,7 +6,7 @@
 //  Copyright © 2019 Ivan Nikitin. All rights reserved.
 //
 
-import UIKit
+import ARKit
 
 
 extension ViewController {
@@ -17,6 +17,7 @@ extension ViewController {
             let results = sceneView.hitTest(location, types:  [.existingPlaneUsingExtent])
             guard let result = results.first else { return }
             addHook(result: result)
+            
         } else {
             
             addBasketBall()
