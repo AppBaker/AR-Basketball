@@ -22,6 +22,7 @@ class ViewController: UIViewController{
         
         // Set the view's delegate
         sceneView.delegate = self
+        //Set delegate for physicsWorld
         sceneView.scene.physicsWorld.contactDelegate = self
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
