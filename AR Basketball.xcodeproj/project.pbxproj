@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E41F0D0D224CD02B005CF7CB /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = E41F0D0C224CD02A005CF7CB /* Rectangle.png */; };
 		E443A4052251D8D900151435 /* fon.png in Resources */ = {isa = PBXBuildFile; fileRef = E443A4042251D8D800151435 /* fon.png */; };
 		E485FD80224B29E400011A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485FD7F224B29E400011A2E /* AppDelegate.swift */; };
 		E485FD82224B29E400011A2E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E485FD81224B29E400011A2E /* art.scnassets */; };
@@ -24,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E41F0D0C224CD02A005CF7CB /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
 		E443A4042251D8D800151435 /* fon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fon.png; sourceTree = "<group>"; };
 		E485FD7C224B29E400011A2E /* AR Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Basketball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E485FD7F224B29E400011A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				E485FD7F224B29E400011A2E /* AppDelegate.swift */,
 				E485FD81224B29E400011A2E /* art.scnassets */,
 				E485FD88224B29E800011A2E /* Assets.xcassets */,
-				E41F0D0C224CD02A005CF7CB /* Rectangle.png */,
 				E485FD8A224B29E800011A2E /* LaunchScreen.storyboard */,
 				E443A4042251D8D800151435 /* fon.png */,
 				E4D6B5412250B359009205F9 /* PlayBasket@2x.png */,
@@ -186,7 +183,6 @@
 				E4D6B5422250B359009205F9 /* PlayBasket@2x.png in Resources */,
 				E485FD82224B29E400011A2E /* art.scnassets in Resources */,
 				E485FD8C224B29E800011A2E /* LaunchScreen.storyboard in Resources */,
-				E41F0D0D224CD02B005CF7CB /* Rectangle.png in Resources */,
 				E485FD89224B29E800011A2E /* Assets.xcassets in Resources */,
 				E485FD87224B29E400011A2E /* Main.storyboard in Resources */,
 				E443A4052251D8D900151435 /* fon.png in Resources */,

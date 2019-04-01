@@ -37,13 +37,11 @@ extension  ViewController {
         ball.physicsBody?.applyForce(force, asImpulse: true)
         
         // Add torque
-        
         ball.physicsBody?.applyTorque(SCNVector4(transform.columns.1.x, transform.columns.1.y, transform.columns.1.z, 0.7), asImpulse: true)
         
         
         ball.physicsBody?.collisionBitMask = 2
         ball.physicsBody?.contactTestBitMask = 1
-        ball.physicsBody?.categoryBitMask = 1
         ball.name = "Ball"
         
         sceneView.scene.rootNode.addChildNode(ball)
@@ -75,6 +73,7 @@ extension  ViewController {
         hoopAdded = true
         
         sceneView.scene.rootNode.addChildNode(node)
+        
         //Remove debugOptions and planeDetection
         sceneView.session.run(ARWorldTrackingConfiguration())
         sceneView.debugOptions.remove(.showFeaturePoints)
@@ -108,7 +107,6 @@ extension  ViewController {
         
         detectionNodeOne.physicsBody?.collisionBitMask = 2
         detectionNodeOne.physicsBody?.contactTestBitMask = 1
-        detectionNodeOne.physicsBody?.categoryBitMask = 1
         detectionNodeOne.name = "DetectPlaneOne"
         detectionNodeOne.opacity = 0
         
@@ -123,7 +121,6 @@ extension  ViewController {
         
         detectionNodeTwo.physicsBody?.collisionBitMask = 2
         detectionNodeTwo.physicsBody?.contactTestBitMask = 1
-        detectionNodeTwo.physicsBody?.categoryBitMask = 1
         detectionNodeTwo.name = "DetectPlaneTwo"
         detectionNodeTwo.opacity = 0
         
