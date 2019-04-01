@@ -15,7 +15,6 @@ class ViewController: UIViewController{
     var hoopAdded = false
     var score = 0
     var scoreNode: SCNNode!
-    var collision = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
