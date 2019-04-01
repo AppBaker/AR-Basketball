@@ -13,13 +13,6 @@ extension ViewController: SCNPhysicsContactDelegate, SCNSceneRendererDelegate {
     
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
         
-//        if contact.nodeB.name == "Ball" && contact.nodeA.name == "DetectPlaneOne" {
-//            guard let ball = contact.nodeB as? Ball else { return }
-//            if !ball.contactDetectionOne && !ball.contactDetectionTwo {
-//                ball.contactDetectionOne = true
-//            }
-//        }
-        
         if contact.nodeB.name == "Ball" && contact.nodeA.name == "DetectPlaneOne" || contact.nodeB.name == "Ball" && contact.nodeA.name == "DetectPlaneTwo" {
             guard let ball = contact.nodeB as? Ball else { return }
             
@@ -36,7 +29,6 @@ extension ViewController: SCNPhysicsContactDelegate, SCNSceneRendererDelegate {
 
             else if ball.contactDetectionOne && contact.nodeA.name == "DetectPlaneTwo" {
                 //Cout score
-                
                 if !ball.isCounted {
                     ballInTheBasket()
                     ball.isCounted = true
